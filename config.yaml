@@ -33,20 +33,3 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
  
-  
-  - id: gdynet
-    name: geodata.yorgis.net
-    url: 'https://geodata.yorgis.net/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-   
-   
-   - id: mynet
-    name: m.yorgis.net
-    url: 'https://m.yorgis.net/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-    
-  
