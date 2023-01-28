@@ -1,7 +1,7 @@
 settings:
   title: 'Status Page'
   url: 'https://status.yorgis.net' 
-  logo: https://kwkzcdfqvquavxhvoaqi.supabase.co/storage/v1/object/public/bucketo/db.jpg?t=2022-09-30T12%3A46%3A15.475Z # 
+  logo: https://kwkzcdfqvquavxhvoaqi.supabase.co/storage/v1/object/public/bucketo/db.jpg?t=2022-09-30T12%3A46%3A15.475Z 
   daysInHistogram: 90 
   collectResponseTimes: true 
 
