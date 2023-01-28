@@ -1,9 +1,9 @@
 settings:
   title: 'Status Page'
-  url: 'https://status.yorgis.net' # used for Slack messages
-  logo: https://kwkzcdfqvquavxhvoaqi.supabase.co/storage/v1/object/public/bucketo/db.jpg?t=2022-09-30T12%3A46%3A15.475Z # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: true # collects avg response times from CRON locations
+  url: 'https://status.yorgis.net' 
+  logo: https://kwkzcdfqvquavxhvoaqi.supabase.co/storage/v1/object/public/bucketo/db.jpg?t=2022-09-30T12%3A46%3A15.475Z # 
+  daysInHistogram: 90 
+  collectResponseTimes: true 
 
   allmonitorsOperational: 'All Systems Operational'
   notAllmonitorsOperational: 'Not All Systems Operational'
@@ -12,17 +12,17 @@ settings:
   monitorLabelNoData: 'No data'
   dayInHistogramNoData: 'No data'
   dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' incident(s)' 
 
 monitors:
-  - id: ynet # unique identifier
+  - id: ynet 
     name: yorgis.net
-    description: 'yorgis.net the best site in the world' # default=empty
-    url: 'https://yorgis.net/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    description: 'yorgis.net the best site in the world' 
+    url: 'https://yorgis.net/' 
+    method: GET 
+    expectStatus: 200 
+    followRedirect: false 
+    linkable: true
 
   - id: ssrynet
     name: ssr.yorgis.net
@@ -30,6 +30,16 @@ monitors:
     url: 'https://ssr.yorgis.net'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: true 
+    
+    
+    
+   - id: tdappynet
+    name: todoapp.yorgis.net
+    description: 'The best todo app!!'
+    url: 'https://todoapp.yorgis.net'
+    method: GET
+    expectStatus: 200
+    linkable: true 
 
  
