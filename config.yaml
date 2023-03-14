@@ -41,5 +41,13 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true 
+    
+  - id: mynet
+   name: m.yorgis.net
+   description: 'The mobile version of yorgis.net!!'
+   url: 'https://m.yorgis.net'
+   method: GET
+   expectStatus: 200
+   linkable: true 
 
  
