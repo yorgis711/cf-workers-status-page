@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: 16
     - run: npm install --force --legacy-peer-deps
-    - run: npm build
+    - run: npm run build
       env:
         NODE_ENV: production
     - name: Publish
