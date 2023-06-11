@@ -17,8 +17,8 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 16
-    - run: yarn install
-    - run: yarn build
+    - run: npm install
+    - run: npm build
       env:
         NODE_ENV: production
     - name: Publish
