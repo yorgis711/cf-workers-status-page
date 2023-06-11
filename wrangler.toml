@@ -4,14 +4,14 @@ account_id = "747c9af393e7af3bd33dd64d5c84767c"
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
-
+main = "./"
 
 [triggers]
 crons = ["*/1 * * * *"]
 
 [site]
 bucket = "out"
-entry-point = "./"
+entry-point 
 
 # uncomment and adjust following if you are not using GitHub Actions
 #[env.production]
