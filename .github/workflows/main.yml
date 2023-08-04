@@ -17,7 +17,7 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 16
-    - run: npm ci --force --legacy-peer-deps
+    - run: npm i --force --legacy-peer-deps
     - run: npm run build 
       env:
         NODE_ENV: production
