@@ -3,7 +3,7 @@ workers_dev = true
 account_id = "747c9af393e7af3bd33dd64d5c84767c"
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
-compatibility_date = "2023-06-11"
+compatibility_date = "2024-05-04"
 main = "./index.js"
 
 [triggers]
