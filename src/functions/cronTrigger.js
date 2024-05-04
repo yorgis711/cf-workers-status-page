@@ -1,4 +1,4 @@
-import 'yaml-loader' from 'yaml-loader';
+import 'yaml-loader';
 import jsYaml from 'js-yaml';
 import config from '../../config.yaml'
 
