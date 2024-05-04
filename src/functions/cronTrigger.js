@@ -1,3 +1,4 @@
+import js-yaml
 import config from '../../config.yaml'
 
 import {
